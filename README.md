@@ -86,24 +86,23 @@
 ---
 ## 🚀 如何執行 (Getting Started)
 
-### 前置需求
-* C++17 Compiler (g++, clang++)
-* SFML Library (2.5+)
-
 ### 編譯與執行 (Mac/Linux)
 
 ```bash
 # 1. 下載專案
-git clone https://github.com/yiyi42205-ops/HOUSE-of-Final.git
-cd House-of-Final
+git clone [https://github.com/yiyi42205-ops/HOUSE-of-Final.git](https://github.com/yiyi42205-ops/HOUSE-of-Final.git)
+cd HOUSE-of-Final
 
-# 2. 編譯 (確保已安裝 SFML)
-# 簡易指令：
-g++ -std=c++17 src/*.cpp -o HouseOfFinal -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
+# 2. 編譯 (使用內附腳本)
+# 給予腳本執行權限並執行
+chmod +x build.sh
+./build.sh
+
+# (或是手動編譯指令：)
+# g++ -std=c++17 src/*.cpp -o game -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
 
 # 3. 執行
-./HouseOfFinal
-
+./game
 ```
 ## 🚧 未來展望 (Future Roadmap)
 
@@ -111,9 +110,6 @@ g++ -std=c++17 src/*.cpp -o HouseOfFinal -lsfml-graphics -lsfml-window -lsfml-sy
 
 * **UI 自適應與除錯**
     針對使用者回報的文字溢出 (Text Overflow) 問題，將實作動態字體縮放，確保在高解析度螢幕下的顯示正常。
-
-* **音訊平衡優化**
-    解決部分玩家反應「音效太小」的問題，將重新調整過場動畫與遊戲背景音的混音比例 (Mixing)。
 
 * **重構程式架構**
     將 God Class 拆解為 `InputHandler`, `Renderer`, `AudioManager` 等獨立模組，以利於後續功能的擴充。
