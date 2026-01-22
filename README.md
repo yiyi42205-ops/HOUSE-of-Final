@@ -10,7 +10,6 @@
 > 一款將大學生「期末焦慮」具象化的 Meta-RPG 生存遊戲。
 
 ![Hero Image](assets/cg/cg_observer.png)
-*(請將此處替換為你最帥的一張遊戲截圖或標題畫面)*
 
 </div>
 
@@ -18,10 +17,10 @@
 
 ## 📖 專案背景 (Introduction)
 
-**HOUSE of FINAL** 是一款基於 C++ 與 SFML 引擎開發的 2D 角色扮演遊戲。
+**HOUSE of FINAL** 是一款基於 C++ 與 SFML 引擎開發的 2D 角色扮演遊戲（RPG）。
 本專案不僅是對期末考週的生存模擬，更是一次**後設敘事 (Meta-narrative)** 的程式實作嘗試。遊戲試圖打破第四面牆，探討「玩家 vs 系統」與「數據 vs 記憶」的哲學議題。
 
-在這個為期一週的迴圈中，玩家需要平衡 **Sanity (精神值)**、**HP (體力)** 與 **GPA (學業成績)**。但隨著輪迴次數增加，你會發現唯一的出路，或許不是考一百分......
+在這個為期一週的迴圈中，玩家需要平衡 **Sanity (精神值)**、**HP (體力)** 與 **GPA (學業成績)**。但隨著輪迴次數增加，你會發現唯一的出路，或許不是拿到滿分......
 
 ---
 
@@ -46,19 +45,20 @@
 * 敵人類別與生成速率演算法具有**多型 (Polymorphism)** 特性，會根據玩家該科目的「準備等級 (Prep Level)」即時改變行為模式。
 
 ---
-
 ## 📸 遊戲畫面 (Gallery)
 
-| 🏫 校園探索 | 👾 彈幕考試 |
-| :---: | :---: |
-| ![Campus](assets/cg/cg_dorm_messy.png) | *(請放一張考試截圖)* |
-| *探索充滿壓力的校園地圖* | *將考試轉化為生存閃避遊戲* |
+> *Disclaimer: Most visual assets and illustrations in this project were generated using AI tools.*
+> *(註：本專案之美術素材如背景 CG 與人物立繪，皆由 AI 工具協助生成。)*
 
-| 👁️ 精神崩潰 (Glitch) | 🎭 多重結局 |
+| 🏫 宿舍場景 (Atmosphere) | 👾 彈幕考試 (Gameplay) |
 | :---: | :---: |
-| *(請放一張亂碼對話截圖)* | ![Ending](assets/cg/cg_beach.png) |
-| *低 SAN 值觸發的視覺干擾* | *包含 True End 在內的 10 種結局* |
+| ![Dorm](assets/cg/cg_dorm_messy.png) | ![Exam](assets/cg/exam.png) |
+| *還原期末週混亂與壓抑的宿舍生活* | *將考試轉化為生存閃避遊戲* |
 
+| 💬 劇情互動 (Dialogue) | 🖥️ 系統介面 (System) |
+| :---: | :---: |
+| ![Dialogue](assets/cg/talking.png) | ![Menu](assets/cg/menu.png) |
+| *與 NPC 對話挖掘「輪迴」真相* | *完整的存檔、裝備與設定系統* |
 ---
 
 ## 🗣️ 使用者回饋與評價 (User Testimonials)
