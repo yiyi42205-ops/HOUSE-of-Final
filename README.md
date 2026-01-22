@@ -50,15 +50,20 @@
 > *Disclaimer: Most visual assets and illustrations in this project were generated using AI tools.*
 > *(註：本專案之美術素材如背景 CG 與人物立繪，皆由 AI 工具協助生成。)*
 
-| 🏫 宿舍場景 (Atmosphere) | 👾 彈幕考試 (Gameplay) |
+| 🏫 校園探索 | 👾 彈幕考試|
 | :---: | :---: |
-| ![Dorm](assets/cg/cg_dorm_messy.png) | ![Exam](assets/cg/exam.png) |
-| *還原期末週混亂與壓抑的宿舍生活* | *將考試轉化為生存閃避遊戲* |
+| ![Overview](assets/cg/overview.png) | ![Exam](assets/cg/exam.png) |
+| *操作像素小人在校園中生存* | *將考試轉化為生存閃避遊戲* |
 
-| 💬 劇情互動 (Dialogue) | 🖥️ 系統介面 (System) |
+| 💬 劇情互動 | 🎭 多重結局|
 | :---: | :---: |
-| ![Dialogue](assets/cg/talking.png) | ![Menu](assets/cg/menu.png) |
-| *與 NPC 對話挖掘「輪迴」真相* | *完整的存檔、裝備與設定系統* |
+| ![Dialogue](assets/cg/talking.png) | ![Dorm](assets/cg/cg_dorm_messy.png) |
+| *與 NPC 對話挖掘「輪迴」真相* | *包含 True End 在內的 10 種結局* |
+
+| 🖥️ 系統介面 (System) | |
+| :---: | :---: |
+| ![Menu](assets/cg/menu.png) | |
+| *完整的存檔、CG畫廊與設定系統* | |
 ---
 
 ## 🗣️ 使用者回饋與評價 (User Testimonials)
