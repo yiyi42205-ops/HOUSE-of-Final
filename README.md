@@ -3,7 +3,7 @@
 # 🏛️ HOUSE of FINAL (期末大作戰)
 
 ![C++](https://img.shields.io/badge/Language-C++17-blue.svg)
-![SFML](https://img.shields.io/badge/Library-SFML_2.6-green.svg)
+![SFML](https://img.shields.io/badge/Library-SFML_3.0-green.svg)
 ![Status](https://img.shields.io/badge/Status-Completed-success.svg)
 
 > **"Don't just survive the finals. Break the loop."**<br>
